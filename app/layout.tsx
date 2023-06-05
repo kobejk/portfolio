@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "kobe.onl",
-  description: "my landing page...",
+  description: "my landing page",
 };
 
 export default function RootLayout({

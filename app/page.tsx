@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="px-10">
       <nav className="py-10 mb-12 flex justify-between">
-        <h1 className="text-2xl">kobe.onl</h1>
+        <h1 className="text-2xl font-semibold">kobe.onl</h1>
         <ul className="flex items-center">
           <li>
             <Moon className="cursor-pointer" />
@@ -19,12 +19,17 @@ export default function Home() {
           </li>
         </ul>
       </nav>
-      <div>
-        <h2>Kobe Kunce</h2>
-        <h3>Security Engineer, Programmer, Vim User.</h3>
+      <div className="text-center p-10">
+        <h2 className="py-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+          Kobe Kunce
+        </h2>
+        <h3 className="py-2 scroll-m-20 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          Security Engineer, Programmer, Vim User.
+        </h3>
         <p>
-          Holding a Diploma in Information Technology and pursuing a Bachelor of
-          Cyber Security.
+          Diploma in Information Technology, Bachelor of Cyber Security. This
+          site was made to experiment with ReactJS. I'll keep this page updated
+          with projects that I'm working on.
         </p>
       </div>
     </main>
