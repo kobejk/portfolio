@@ -1,16 +1,10 @@
-// needed for light/dark mode functionality
-// "use client";
-
 import { Button } from "@/components/ui/button";
-import { Moon } from "lucide-react";
 import { Github } from "lucide-react";
 
 import Image from "next/image";
 import Hero from "@/public/idea-launch.svg";
+import { ThemeToggle } from "@/components/theme-toggle";
 
-// import { useState } from "react";
-// onClick={() => setDarkMode(!darkMode)}
-// className={darkMode ? "dark" : ""}
 export default function Home() {
   return (
     <main>
@@ -19,7 +13,7 @@ export default function Home() {
           <h1 className="text-2xl font-semibold">kobe.onl</h1>
           <ul className="flex items-center">
             <li>
-              <Moon className="cursor-pointer" />
+              <ThemeToggle />
             </li>
             <li>
               <Button className="ml-8">
