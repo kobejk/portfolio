@@ -18,7 +18,7 @@ export default function Home() {
             <li>
               <Button className="ml-8">
                 <Github className="mr-2 h-4 w-4" />
-                <a href="https://github.com/kobejk">Github</a>
+                <a href="https://github.com/kobejk/portfolio">Github</a>
               </Button>
             </li>
           </ul>
@@ -36,7 +36,7 @@ export default function Home() {
             this page updated with projects that I'm working on.
           </p>
         </div>
-        <div className="relative mx-auto w-80 h-80 md:w-120 md:h-120">
+        <div className="relative mx-auto w-80 h-80 md:w-120 md:h-120 dark:invert">
           <Image src={Hero} alt="hero image" fill />
         </div>
       </div>
