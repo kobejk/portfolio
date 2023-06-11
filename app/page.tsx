@@ -1,9 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 
-import Image from "next/image";
-import Hero from "@/public/idea-launch.svg";
 import { ThemeToggle } from "@/components/theme-toggle";
+import Hero from "@/public/idea-launch.svg";
+import Image from "next/image";
 
 export default function Home() {
   return (
